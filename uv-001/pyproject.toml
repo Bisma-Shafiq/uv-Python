@@ -1,0 +1,17 @@
+[project]
+name = "uv-001"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bisma Shafiq", email = "bismashafiq26@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+uv-001 = "uv_001:main"
+hello_file = "uv_001.hello:hello_fun"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
