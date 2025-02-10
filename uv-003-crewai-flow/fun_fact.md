@@ -1,0 +1,3 @@
+Okay, here's a fun fact about **Singaraja**!
+
+While many people think of southern Bali for beaches and bustling tourist areas like Kuta or Seminyak, **Singaraja**, located in northern Bali, was actually the island's *former capital* during Dutch colonial times!  It's known for having a more laid-back and traditional Balinese atmosphere compared to the south, and you can still see some beautiful Dutch colonial architecture there. So, if you want to experience a different side of Bali, away from the crowds, Singaraja is worth exploring!

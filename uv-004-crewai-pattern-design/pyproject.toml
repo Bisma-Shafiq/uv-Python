@@ -1,0 +1,25 @@
+[project]
+name = "uv-005-crewai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bisma Shafiq", email = "bismashafiq26@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.100.1",
+    "litellm>=1.59.8",
+]
+
+[project.scripts]
+uv-005-crewai = "uv_005_crewai:main"
+crewai-flow = "uv_005_crewai.main:main"
+crewai-flow2 = "uv_005_crewai.main2:kickoff"
+crewai-flow3 = "uv_005_crewai.main3:kickoff"
+project ="uv_005_crewai.project:kickoff"
+project1 = "uv_005_crewai.project_router:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
