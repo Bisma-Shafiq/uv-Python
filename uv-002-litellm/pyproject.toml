@@ -1,0 +1,20 @@
+[project]
+name = "uv-litellm-002"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bisma Shafiq", email = "bismashafiq26@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.59.8",
+    "pandas>=2.2.3",
+]
+
+[project.scripts]
+uv-litellm-002 = "uv_litellm_002:main"
+gemini1 = "uv_litellm_002.gemini:call_gemini"
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
